@@ -1,0 +1,56 @@
+.header {
+    &__menu {
+        padding:40px 0 35px 12.5px;
+        height: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &:before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 1px;
+            background-color: #06060a;
+            margin-top: 1.5%;
+            margin-right: -38px;
+        }
+        .search {
+            outline: none;
+            text-decoration: none;
+            color: $menu_color;
+        }
+        .header__item {
+            list-style-type: none;
+            outline: none;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.075em;
+            .menu__link {
+                color: $menu_color;
+                text-decoration: none; 
+                &:hover {
+                    color: $hover_color;
+                }
+                &_selected {
+                    color: $hover_color;
+                }
+            }
+        }
+    }
+    &__logo {
+        display: block;
+        &_main {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+.up {
+    display: block;
+    position: fixed;
+    z-index: 2;
+}
+ 
