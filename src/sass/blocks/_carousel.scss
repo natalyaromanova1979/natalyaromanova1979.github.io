@@ -11,7 +11,8 @@
         transform: translateY(-50%);
         left: 112px;
         border: none;
-        background-color: red;
+        background-color: rgba(255, 255, 255, 0);
+        z-index: 2;
         img {
             width: 42px;
             height: 43px;
@@ -20,6 +21,5 @@
     .slick-next {
         right: 112px;
         left: auto;
-        background-color: rgba(255, 255, 255, 0);
     }
 }

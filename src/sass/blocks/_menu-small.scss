@@ -49,6 +49,7 @@
                 }
                 &:hover {
                     color: $hover_color;
+                    transition: 0.5s all;
                 }
             }
         }

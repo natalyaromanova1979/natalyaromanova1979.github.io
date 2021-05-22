@@ -32,6 +32,7 @@
                 text-decoration: none; 
                 &:hover {
                     color: $hover_color;
+                    transition: 0.5s all;
                 }
                 &_selected {
                     color: $hover_color;
