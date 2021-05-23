@@ -1,0 +1,23 @@
+.button {
+    width: 125px;
+    height: 30px;
+    background-color: #959595;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    &:active {
+        border: none; 
+        outline: none;
+    }
+    &_main {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 73px;
+    }
+}

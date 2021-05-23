@@ -68,5 +68,18 @@
         }
 
     }
+    &__content {
+        padding-bottom: 2px;
+        display: none;
+        &_active {
+            display: block;
+        }
+    }
+    &-item {
+        &__img {
+            margin-bottom: 34px;
+            min-width: 100%;
+        }
+    }
 
 }
