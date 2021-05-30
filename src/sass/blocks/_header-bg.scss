@@ -1,0 +1,38 @@
+.header-bg {
+    height: 350px;
+    position: relative;
+    &__about {
+      background: url(../img/about/about_bg.png) center (center/cover) no-repeat; 
+    }
+    &__title {
+        line-height: 56px;
+        width: 590px;
+        height: 56px;
+        background-color: $hover_color;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        &_about {
+            position: absolute;
+            margin-top: 115px;
+            margin-left: 229px;
+        }
+    }
+    &__subtitle {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.4em;
+        color: $hover_color;
+        &_about {
+            position: absolute;
+            margin-top: 215px;
+            margin-left: 229px;
+        }
+    }
+}
