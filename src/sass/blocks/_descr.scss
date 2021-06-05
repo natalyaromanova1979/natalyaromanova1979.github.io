@@ -1,0 +1,16 @@
+.descr {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0.025em;
+    color: $menu_color;
+    font-family: Roboto;
+    &_about-us {
+        margin-top: 22px;
+        span {
+            display: block;
+            margin-top: 25px;
+        }
+    }
+}

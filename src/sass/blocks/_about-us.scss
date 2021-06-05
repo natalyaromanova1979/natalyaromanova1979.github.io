@@ -1,4 +1,101 @@
 .about-us {
     min-height: 772px;
     padding: 72px 0 100px 0;
+    &__wrapper {
+        min-height: 255px;
+        &_skills {
+            min-height: 292px;
+            margin-top: 42px;
+            .skills__wrapper {
+                margin-top: 29px;
+                position: relative;
+                .skills__item {
+                    margin-bottom: 24px;
+                    .skills__title {
+                        display: inline-block;
+                        position: absolute;
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-weight: 700;
+                        letter-spacing: 0.025em;
+                        color: #2f302f;
+                    }
+                    .skills__img {
+                        display:inline-block;
+                    }
+                }
+                
+            }
+        }
+    }
+    &__title {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.4em;
+        color: $hover_color;
+    }        
+}
+.team {
+    position: relative;
+    padding: 0 0 76px 0;
+    min-height: 1008px;
+    &__title {
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.4em;
+        color: $hover_color;
+        text-align: center;
+        }
+    &__descr {
+        margin-top: 42px;
+        width: 600px;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 400;
+        text-transform: none;
+        letter-spacing: 0.025em;
+        color: $menu_color;
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    &__wrapper {
+        position: relative;
+        margin-top: 67px;
+        .team__item {
+            min-height: 125px;
+            padding: 35px 43px 31px 34px;
+            .team__name {
+                font-family: Roboto;
+                font-size: 24px;
+                font-weight: 300;
+                text-transform: uppercase;
+                letter-spacing: 0.04em;
+                color: #041608;
+            }
+            .team__job {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 700;
+                text-transform: none;
+                letter-spacing: 0.025em;
+                color: $menu_color;
+            }
+            .team__descr-job {
+                margin-top: 22px;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: none;
+                letter-spacing: normal;
+                color: #9c9c9c;
+            }
+        }
+  
+    }
 }
