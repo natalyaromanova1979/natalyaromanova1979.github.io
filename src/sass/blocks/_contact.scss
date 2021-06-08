@@ -1,0 +1,58 @@
+.info {
+    padding: 82px 0 16px 0;
+    min-height: 333px;
+    &__office {
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 300;
+        text-transform: uppercase;
+        line-height: 24px;
+        letter-spacing: 0.4em;
+        color: $hover_color;
+    }
+    &__descr {
+        margin-top: 16.5px;
+        font-family: Roboto;
+        font-size: 16px;
+        text-transform: none;
+        letter-spacing: 0.025em;
+        color: #2f302f;
+        &:after {
+            content: '';
+            display: block;
+            margin-top: 18px;
+            margin-bottom: 8px;
+            width: 60px;
+            height: 1px;
+            background-color: $hover_color;
+        }
+    }
+    &__hours, &__address {
+        margin-top: 37px;
+        margin-bottom: 0;
+        font-family: Roboto;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 700;
+        letter-spacing: 0.025em;
+        color: #222222;
+        span {
+            font-weight: 400;
+            color: $menu_color;
+        }
+    }
+    &__tell, &__fax {
+        display: block;
+        margin-top: 12px;
+        font-family: Roboto;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 700;
+        letter-spacing: 0.025em;
+        color: #222222;
+        span {
+            color: #555555;
+        }
+    }
+  
+}
