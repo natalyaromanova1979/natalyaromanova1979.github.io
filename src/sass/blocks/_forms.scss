@@ -1,0 +1,32 @@
+.info-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 748px;
+    input {
+        padding: 15px 12px;
+        width: 358px;
+        height: 40px;
+        border: 1px solid #ebebeb;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing: 0.025em;
+        color: #bababa;
+    }
+    textarea {
+        padding: 12px;
+        margin-top: 32px;
+        width: 748px;
+        height: 150px;
+        border: 1px solid #ebebeb;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing: 0.025em;
+        color: #bababa;
+    }
+
+}

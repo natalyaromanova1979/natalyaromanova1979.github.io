@@ -21,5 +21,22 @@ $(document).ready(function(){
         .addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active')
         .closest('div.container').find('div.catalog__content').removeClass('catalog__content_active').eq($(this).index()).addClass('catalog__content_active');
     });
+
+    $('.info-form').validate({
+      rules: {
+        name: "required",
+        email: {
+          required: true,
+          email: true
+        }
+      },
+      messages: {
+        name: "Пожалуйства, введите свое имя",
+        email: {
+          required: "Пожалуйства, введите свою почту",
+          email: "Неправильно введен адрес почты"
+        } 
+      } 
+    });
   });
       
