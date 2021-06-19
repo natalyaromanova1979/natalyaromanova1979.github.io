@@ -35,6 +35,9 @@
         text-transform: uppercase;
         letter-spacing: 0.4em;
         color: $hover_color;
+        &__values {
+            margin-top: 27px;
+        }
     }        
 }
 .team {

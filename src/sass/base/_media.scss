@@ -1,0 +1,31 @@
+@media (max-width: 1200px) {
+    .header {
+        .header__logo {
+            &_main {
+                img {
+                    width: 80px;
+                }
+            }
+        }
+        &__menu {
+            .header__item {
+                font-size: 12px;
+            }
+            &:before {
+                margin-right: -9px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+
+}

@@ -38,5 +38,20 @@ $(document).ready(function(){
         } 
       } 
     });
+
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 800) {
+        $('.up').show();
+      } else {
+        $('.up').hide();
+      }
+    }); 
+
+    $("a[href^='#']").click(function(){
+      const _href = $(this).attr("href");
+      $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+      return false;
+    });
+    
   });
       
