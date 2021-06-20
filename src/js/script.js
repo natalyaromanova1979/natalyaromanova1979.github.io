@@ -8,9 +8,9 @@ $(document).ready(function(){
             {
               breakpoint: 992,
               settings: {
-                dots: true,
-                arrows: false,
-                speed: 500,
+                dots: false,
+                arrows: true,
+                speed: 900,
                 fade: true,
               }
               }
@@ -54,4 +54,22 @@ $(document).ready(function(){
     });
     
   });
+
+window.addEventListener('DOMContentLoaded', () => {
+  const menu = document.querySelector('.header__menu'),
+  menuItem = document.querySelectorAll('.header__item'),
+  hamburger = document.querySelector('.hamburger');
+
+  hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('hamburger_active');
+      menu.classList.toggle('header__menu_active');
+    });
+
+  menuItem.forEach(item => {
+      item.addEventListener('click', () => {
+          hamburger.classList.toggle('hamburger_active');
+          menu.classList.toggle('header__menu_active');
+        })
+    })
+})
       
