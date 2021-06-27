@@ -14,11 +14,6 @@
             margin-top: 1.5%;
             margin-right: -38px;
         }
-        .search {
-            outline: none;
-            text-decoration: none;
-            color: $menu_color;
-        }
         .header__item {
             list-style-type: none;
             outline: none;
@@ -39,6 +34,20 @@
                 }
             }
         }
+        
+    }
+    .search {
+        outline: none;
+        text-decoration: none;
+        color: $menu_color;
+        .icon-search {
+            &:before {
+                display: block;
+                position: absolute;
+                margin-left: 700px;
+                margin-top: -62px;
+            }
+        } 
     }
     &__logo {
         display: block;
