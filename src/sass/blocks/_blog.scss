@@ -1,0 +1,81 @@
+.blog {
+    min-height: 1680px;
+    padding: 71px 0 101px 0;
+    &-wrapper {
+        &__item {
+            margin-bottom: 31px;
+            padding: 39px 37px 40px 45px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            width: 358px;
+            min-height: 330px;
+            background-color: #ffffff;
+            .blog-wrapper__title {
+                font-family: Roboto;
+                margin-top: 29px;
+                font-size: 20px;
+                font-weight: 700;
+                color: #333333;
+                &_white {
+                    color: #ffffff;
+                }
+            }
+            .blog-wrapper__name {
+                display: inline-block;
+                margin-top: 15px;
+                font-family: Roboto;
+                font-weight: 400;
+                font-size: 13px;
+                color: #cccccc;
+            }
+            span {
+                font-size: 13px;
+                color: #cccccc;
+            }
+            .blog-wrapper__descr {
+                min-height: 64px;
+                margin-top: 34px;
+                font-family: Roboto;
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 400;
+                color: $menu_color;
+                &_white {
+                    color: #e5e5e5;
+                }
+            }
+            .blog-wrapper__date {
+                display: inline-block;
+                margin-top: 45px;
+                width: 281px;
+                &-day {
+                    display: inline-block;
+                    font-family: Roboto;
+                    font-size: 13px;
+                    font-weight: 400;
+                    color: #9a9a9a;
+                }
+                span {
+                    font-size: 13px;
+                }
+                &-link {
+                    display: inline-block;
+                    margin-left: 83px;
+                    width: 82px;
+                    span {
+                        padding: 0 12px;
+                    }
+                }
+
+            }
+            img {
+                width: 100%;
+            }
+            &_bg {
+                background: url(../img/blog/image_bg.png) center (center/cover) no-repeat; 
+            }
+            &_nonpadd {
+                padding: 0;
+            }
+        }
+    }
+}
