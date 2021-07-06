@@ -7,7 +7,7 @@
             padding: 39px 37px 40px 45px;
             box-shadow: 0 0 10px rgba(0,0,0,0.5);
             width: 358px;
-            min-height: 330px;
+            min-height: 243px;
             background-color: #ffffff;
             .blog-wrapper__title {
                 font-family: Roboto;
@@ -71,10 +71,29 @@
                 width: 100%;
             }
             &_bg {
+                z-index: 1;
                 background: url(../img/blog/image_bg.png) center (center/cover) no-repeat; 
+                &-coffee {
+                    &:hover {
+                        display: block;
+                        width: 150%;
+                        margin-left: -35%;
+                        background: url(../img/blog/coffe.png) center (center/cover) no-repeat;
+                        z-index: -1;
+                    }
+                }
             }
             &_nonpadd {
                 padding: 0;
+            }
+            &-matches {
+                &:hover {
+                    display: block;
+                    width: 150%;
+                    margin-left: -35%;
+                    background: url(../img/blog/matches) center (center/cover) no-repeat;
+                    z-index: -1;
+                }
             }
         }
     }

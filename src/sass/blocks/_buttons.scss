@@ -34,4 +34,17 @@
         background-color: #000000;
         font-size: 13px;
     }
+    &_src {
+        display: block;
+        position: absolute;
+        margin-top: -48px;
+        margin-left: 317px;
+        padding: 6px;
+        width: 35px;
+        height: 34px;
+        background-color: #999999;
+        span {
+            font-size: 16px;
+        }
+    }
 }
