@@ -13,7 +13,19 @@ $(document).ready(function(){
                 speed: 900,
                 fade: true,
               }
-              }
+              },
+            {
+              breakpoint: 575,
+              settings: {
+                dots: false,
+                arrows: false,
+                autoplay: true,
+                speed: 900,
+                fade: true,
+                pauseOnFocus: true,
+                touchMove: true,
+                }
+            }       
           ] 
     });
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
