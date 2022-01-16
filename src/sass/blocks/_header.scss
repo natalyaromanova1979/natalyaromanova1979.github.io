@@ -1,0 +1,11 @@
+.header {
+    min-height: 96px;
+    display: grid;
+    grid-template-columns: 96px 600px 161px 160px;
+    &__list {
+        padding: 37px 0 49px 0;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(6, 16%);
+    }
+}
