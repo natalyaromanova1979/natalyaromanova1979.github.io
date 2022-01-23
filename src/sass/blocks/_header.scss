@@ -1,11 +1,45 @@
 .header {
     min-height: 96px;
     display: grid;
-    grid-template-columns: 96px 600px 161px 160px;
+    grid-template-columns: 96px 705px 340px;
     &__list {
         padding: 37px 0 49px 0;
-        margin: 0 auto;
+        margin: 0 55px;
         display: grid;
-        grid-template-columns: repeat(6, 16%);
+        grid-template-columns: 20% 20% 11% 21% 15% 13%;
+        
+    }
+    &__link {
+        list-style-type: none;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+        cursor: pointer;
+        border-right: 1px dotted $white-color;
+        height: 23px;
+        text-align: center;
+        @include hover_main;
+        &:last-child {
+            border: none;
+        }
+    }
+    &__contacts {
+        display: grid;
+        padding: 25px 0 38px 0;
+        grid-template-columns: 168px 160px;
+        grid-template-rows: 13px 19px;
+        row-gap: 5px;
+        column-gap: 12px;
+    
+    }
+    &__phone {
+        grid-row: 2/3;
+        font-family: Roboto;
+        font-size: 19px;
+        font-weight: 700;
+        color: $white-color;
+        text-decoration: none;
+        @include hover_main;
     }
 }

@@ -1,0 +1,11 @@
+@mixin hover_main {
+    &:hover {
+        color: $main-color;
+        text-decoration: underline;
+    }
+}
+@mixin hover_btn {
+    &:hover {
+        background-color: #e39789;
+    }
+}
