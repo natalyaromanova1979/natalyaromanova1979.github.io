@@ -9,8 +9,8 @@
         font-weight: 300;
         color: $white-color;
         text-align: center;
-        margin-bottom: 26px;
-        margin-top: 9px;
+        margin-bottom: 16px;
+        margin-top: -3px;
     }
     &__h1 {
         font-family: 'Roboto Condensed';
@@ -20,7 +20,7 @@
         text-transform: uppercase;
         color: $main-color;
         text-align: center;
-        margin: 0 auto 9px auto; 
+        margin: 0 auto -1px auto; 
     }
     &__h2 {
         font-family: 'Roboto Condensed';
@@ -29,27 +29,22 @@
         text-transform: uppercase;
         color: $white-color;
         text-align: center;
-        margin: 0 auto 38px auto;
+        margin: 0 auto 30px auto;
     }
     .divider {
-        position: absolute;
-        left: 50%;
+        margin-left: 50%;
         transform: translateX(-50%);
     }
     &__services {
-        display: grid;
-        grid-template-columns: repeat(4, 25%);
         &-wrapper {
-            position: absolute;
             margin-top: 27px;
-        }
-        &-item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            column-gap: 33px;
         }
         &-img {
-            
+            margin-left: 50%;
+            transform: translateX(-50%);
         }
     }
 }
