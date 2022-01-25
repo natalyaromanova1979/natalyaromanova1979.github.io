@@ -1,0 +1,13 @@
+.advant {
+    min-height: calc(590px - 109px);
+    position: relative;
+    padding: 58px 0 51px 0;
+    background-color: #f3f3f3;
+    color: $title-color;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(447px, 1fr));
+        grid-template-rows: minmax(62px, auto);
+        column-gap: 62px;
+    }
+} 
