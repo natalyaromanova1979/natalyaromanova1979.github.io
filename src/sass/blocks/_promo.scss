@@ -1,5 +1,5 @@
 .promo {
-    height: calc(100vh - 105px);
+    min-height: calc(100vh - 105px);
     position: relative;
     background: url('../img/promo/main_bg.png') center (center/cover) no-repeat;
     padding: 23px 0 82px 0;

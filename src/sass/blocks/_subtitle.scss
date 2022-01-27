@@ -1,0 +1,24 @@
+.subtitle {
+    text-align: center;
+    font-family: Roboto;
+    &_21-300 {
+        font-size: 21px;
+        font-weight: 300;
+        color: $title-color;
+        &_more {
+            width: 879px;
+            margin-top: 32px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &_14-300 {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        &_more {
+            margin-top: 9px;
+            line-height: 22px;
+        }
+    }
+}

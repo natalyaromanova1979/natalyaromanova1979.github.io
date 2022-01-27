@@ -1,0 +1,11 @@
+.more {
+    min-height: calc(619px - 108px);
+    position: relative;
+    padding: 51px 0 57px 0;
+    &__wrapper {
+        margin-top: 37px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(359px, 1fr));
+        column-gap: 30px;
+    }
+}

@@ -9,3 +9,16 @@
         background-color: #e39789;
     }
 }
+@mixin divider_main {
+    &:after {
+        content: '';
+        display: block;
+        width: 148px;
+        height: 1px;
+        background-color: $main-color;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;
+    }
+}
