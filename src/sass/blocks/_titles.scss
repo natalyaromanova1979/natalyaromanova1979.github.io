@@ -19,6 +19,9 @@
         margin-left: 50%;
         transform: translateX(-50%);
     }
+    &_scheme {
+        margin-bottom: 22px;
+    }
 }
 .title_16-700 {
     font-family: Roboto;
@@ -37,6 +40,11 @@
         width: 261px;
         margin: 0 auto;
         line-height: 60px;
+    }
+    &_scheme {
+        text-align: center;
+        color: $main-color;
+        margin-top: 12px;
     }
     
 }

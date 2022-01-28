@@ -1,0 +1,27 @@
+.scheme {
+    min-height: calc(454px - 51px);
+    position: relative;
+    padding: 51px 0 20px 0;
+    background-color: #f3f3f3;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 269px;
+        margin-bottom: 26px;
+    }
+    &__img {
+        transform: translateX(-50%);
+        margin-left: 50%;
+    }
+    &__descr {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        text-align: center;
+        margin-top: 12px;
+    }
+}

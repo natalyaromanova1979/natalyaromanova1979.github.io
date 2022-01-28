@@ -1,7 +1,7 @@
 .prices {
-    min-height: calc(953px - 111px);
+    min-height: calc(953px - 53px);
     position: relative;
-    padding: 53px 0 58px 0;
+    padding: 53px 0 55px 0;
     &__wrapper {
         margin-top: 34px;
         display: grid;
@@ -21,9 +21,18 @@
 }
 .consult {
     padding: 55px 0 58px 0;
+    &__wrapper {
+        position: relative;
+    }
     &__icon {
-        margin-top: 20px;
+        position: absolute;
+        padding: 10px;
+        margin-top: 8px;
         margin-left: 50%;
         transform: translateX(-50%);
+        z-index: 2;
+        background-color: #fff;
+        width: 102px;
+        height: 102px;
     }
 }

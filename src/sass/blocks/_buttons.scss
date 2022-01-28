@@ -34,5 +34,10 @@
     @include hover_btn;
     &_180 {
         width: 180px;
+        position: absolute;
+        margin-top: 167px;
+        height: 39px;
+        margin-left: 50%;
+        transform: translateX(-50%);
     }
 }
