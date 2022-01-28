@@ -1,6 +1,6 @@
 .subtitle {
-    text-align: center;
     font-family: Roboto;
+    text-align: center;
     &_21-300 {
         font-size: 21px;
         font-weight: 300;
@@ -8,6 +8,12 @@
         &_more {
             width: 879px;
             margin-top: 32px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+        &_prices {
+            width: 699px;
+            margin-top: 27px;
             margin-left: 50%;
             transform: translateX(-50%);
         }
@@ -19,6 +25,37 @@
         &_more {
             margin-top: 9px;
             line-height: 22px;
+        }
+    }
+    &_19-300 {
+        font-size: 19px;
+        font-weight: 300;
+        color: $white-color;
+        width: 984px;
+        &_agent {
+            margin-top: 22px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &_14-400 {
+        font-size: 14px;
+        font-weight: 400;
+        &_prices {
+            text-transform: uppercase;
+            color: $title-color;
+            margin-top: 14px;
+        }
+    }
+    &_28-400 {
+        font-weight: 400;
+        font-size: 28px;
+        text-transform: none;
+        &_prices {
+            color: $main-color;
+        }
+        &_consult {
+            color: #3a3a3a;
         }
     }
 }

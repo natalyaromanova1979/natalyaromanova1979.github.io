@@ -1,0 +1,18 @@
+.consult__form {
+    width: calc(1140px - 291px);
+    min-height: 166px;
+    border:  solid 1.5px #898989;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    column-gap: 5px;
+    align-items: center;
+    padding: 0 162px 0 162px;
+    input {
+        width: calc(270px - 56px);
+        height: calc(47px - 36px);
+        border-radius: 41px;
+        border:  solid 1.5px #898989;
+        padding: 18px 28px;
+        outline: none;
+    }
+}

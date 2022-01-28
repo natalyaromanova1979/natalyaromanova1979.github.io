@@ -3,4 +3,9 @@
     position: relative;
     padding: 58px 0 75px 0;
     background: url('../img/agent/agent_bg1.png') center (center/cover) no-repeat;
+    &__img {
+        display: block;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
 }
