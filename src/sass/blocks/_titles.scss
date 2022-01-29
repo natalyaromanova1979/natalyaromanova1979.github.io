@@ -22,6 +22,12 @@
     &_scheme {
         margin-bottom: 22px;
     }
+    &_reviews {
+        @include divider_main;
+            &:after {
+                margin-top: 25px;
+            }
+    }
 }
 .title_16-700 {
     font-family: Roboto;
@@ -57,5 +63,10 @@
         margin-top: 16px;
         text-align: center;
 
+    }
+    &_carousel {
+        color: #3a3a3a;
+        text-align: center;
+        margin-top: 19px;
     }
     }

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -179,8 +181,8 @@
                     <div class="subtitle subtitle_28-400 subtitle_28-400_consult">Заказать бесплатную консультацию</div>
                     <div class="consult__wrapper">
                         <img src="icons/consult/consult.png" alt="consultation" class="consult__icon">
-                        <form action="#" class="consult__form" id="consultation">
-                            <input name="name" required placeholder="Ваше имя..." type="text">
+                        <form id="consultation-form" action="#" class="consult__form">
+                            <input name="name" required  placeholder="Ваше имя..." type="text">
                             <input name="phone" required placeholder="Ваш номер телефона..." type="number">
                             <input name="email" required placeholder="Ваш e-mail..." type="email">
                             <button data-modal="consultation" class="button button_180">Отправить заявку</button>
@@ -235,13 +237,35 @@
                         <div class="title_16-700 title_16-700_scheme">Оплата</div>
                         <div class="scheme__descr">Оплачиваете доставку груза при получении</div>
                     </div>
-               
                 </div>
         </div>
     </section>
+    <section class="reviews">
+        <div class="title_26-700 title_26-700_reviews">отзывы наших клиентов</div>
+        <div class="subtitle subtitle_21-300 subtitle_21-300_reviews">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div><img src="img/reviews/review.png" alt="slide" class="carousel__img"></div>
+                <div><img src="img/reviews/review.png" alt="slide" class="carousel__img"></div>
+                <div><img src="img/reviews/review.png" alt="slide" class="carousel__img"></div>
+              </div>
+            <button type="button" class="prev"><img src="icons/carousel/left.png"></button>
+            <button type="button" class="next"><img src="icons/carousel/right.png"></button>
+
+        </div>
+   
+    </section>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
     </script>    
     <script src="js/WOW.js"></script>
+ <!--    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
