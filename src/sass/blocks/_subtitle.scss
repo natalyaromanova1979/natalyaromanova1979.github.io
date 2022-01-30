@@ -45,10 +45,14 @@
     &_14-400 {
         font-size: 14px;
         font-weight: 400;
+        text-transform: uppercase;
+        color: $title-color;
         &_prices {
-            text-transform: uppercase;
-            color: $title-color;
             margin-top: 14px;
+        }
+        &_applic {
+            color: $white-color;
+            margin-top: 1px;
         }
     }
     &_28-400 {

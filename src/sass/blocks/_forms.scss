@@ -14,8 +14,58 @@
         width: calc(270px - 56px);
         height: calc(47px - 36px);
         border-radius: 41px;
-        border:  solid 1.5px #898989;
         padding: 18px 28px;
         outline: none;
+        background-color: #ffffff;
+        border: 1px solid rgba(0,0,0,0.2);
     }
-}
+    &_applic {
+        width: calc(1111px - 291px);
+        min-height: 139px;
+        padding: 0 0 0 42px;
+        border: none;
+        margin-top: 13px;
+    }
+        textarea {
+            width: calc(815px - 52px);
+            min-height: calc(73px - 61px);
+            border-radius: 7px;
+            padding: 19px 26px 23px 26px;
+            outline: none;
+            background-color: $white-color;
+            border: 1px solid rgba(0,0,0,0.2);
+        }
+        input {
+            background-color: rgba(255, 255, 255, 1); ;
+            border: 1px solid rgba(0,0,0,0.2);
+        }
+    } 
+    input::-webkit-input-placeholder  {
+        opacity: 0.7;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        color: #101010;;
+    }
+    input:-moz-placeholder {
+        opacity: 0.7;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        color: #101010;;
+    }
+    textarea::-webkit-input-placeholder {
+        opacity: 0.7;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        color: #616467;;
+    }
+    textarea:-moz-placeholder {
+        opacity: 0.7;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        color: #616467;;
+    }
+ 

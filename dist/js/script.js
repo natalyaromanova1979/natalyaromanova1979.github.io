@@ -1,27 +1,6 @@
 
     new WOW().init();
 
-/*     $(document).ready(function(){
-        $('.carousel__inner').slick({
-            dots: true,
-            infinite: true, 
-            speed: 300,
-            slidesToShow: 1,
-            adaptiveHeight: true 
-          });
-      });
-          */ 
-
- /*      var slider = tns({
-        container: '.carousel__inner',
-        items: 1, 
-        slideBy: 'page',
-        autoplay: false,
-        controlsText: [
-        
-        ]
-      
-      }); */
       const slider = tns({
         container: '.carousel__inner',
         items: 1,

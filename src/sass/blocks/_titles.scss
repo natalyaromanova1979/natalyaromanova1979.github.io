@@ -70,3 +70,13 @@
         margin-top: 19px;
     }
     }
+.title_19-700 {
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white-color;
+    &_applic {
+        text-align: center;
+    }
+}
