@@ -1,0 +1,85 @@
+.footer {
+    height: 500px;
+    position: relative;
+    &__info {
+        position: absolute;
+        padding: 27px 49px 28px 53px;
+        top: 155px;
+        left: 66%;
+        transform: translateX(-50%);
+        width: calc(329px - 102px);
+        height: calc (158px - 55px);
+        background: url('../icons/footer/footer_info.png') center (center/cover) no-repeat;
+    }
+    &__addr, &__tel, &__mail {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        line-height: 20px;
+        span {
+            font-size: 16px;
+            font-weight: 700;
+            color: $main-color;
+        }
+    }
+    &__tel {
+        text-decoration: none;
+        cursor: pointer;
+    }
+    &__mail {
+        color: $main-color;
+    }
+    &__wrapper {
+        min-height: calc(201px - 63px);
+        background-color: #25333c;
+        padding: 15px 0 0 0;
+    }
+    &__logo {
+        width: 68px;
+        height: 71px;
+        object-fit: cover;
+    }
+    &__item {
+        &_1 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(68px, 1fr) minmax(646px, 1fr) minmax(340px, 1fr));
+            column-gap: 43px;
+            align-items: center;
+            @include divider_footer;
+        }
+        &_2 {
+            padding: 30px 1px 36px 0px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(329px,1fr) minmax(273px,1fr) 388px 32px);
+            align-items: center;
+        }
+
+    }
+    &__tm {
+        opacity: 0.6;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        color: $white-color;
+        &_creation {
+            justify-self: end;
+        }
+    }
+    &__policy {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        text-decoration: underline;
+        color: $main-color;
+    }
+}
+.leaflet-retina .dg-customization__marker_type_mushroom {
+    background-image: url('../icons/footer/map_logo.png') !important;
+    width: 63px !important;
+    height: 61px !important;
+    background-size: 63px 61px !important;
+} 
+
+ 

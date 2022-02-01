@@ -22,3 +22,16 @@
         margin-top: 20px;
     }
 }
+@mixin divider_footer {
+    &:after {
+        content: '';
+        display: block;
+        margin-top: 118.5px;
+        width: 1171px;
+        height: 1px;
+        background-color: rgba($color: white, $alpha: 0.3);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

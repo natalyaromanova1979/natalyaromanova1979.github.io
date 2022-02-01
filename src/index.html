@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <div class="header">
                 <a href="#"><img src="icons/promo/icon_main.png" alt="icon_main" class="header_logo"></a>
@@ -263,28 +263,63 @@
                     <div class="title_19-700 title_19-700_applic">Остались вопросы?</div>
                     <div class="subtitle subtitle_14-400 subtitle_14-400_applic">Напишите нам!</div>
                 </div>
-                <form id="application-form" action="#" class="consult__form consult__form_applic">
-                    <input name="name" required  placeholder="Ваше имя..." type="text">
-                    <input name="phone" required placeholder="Ваш номер телефона..." type="number">
-                    <input name="email" required placeholder="Ваш e-mail..." type="email">
-                    <textarea name="text" id="applic" style="resize: none;" placeholder="Сообщение..."></textarea>
-                    <button data-modal="consultation" class="button button_180 button_180_applic">Отправить заявку</button>
-                </form>
+                    <form id="application-form" action="#" class="consult__form consult__form_applic">
+                        <input name="name" required  placeholder="Ваше имя..." type="text">
+                        <input name="phone" required placeholder="Ваш номер телефона..." type="number">
+                        <input name="email" required placeholder="Ваш e-mail..." type="email">
+                        <textarea name="text" id="applic" style="resize: none;" placeholder="Сообщение..."></textarea>
+                        <button data-modal="consultation" class="button button_180 button_180_applic">Отправить заявку</button>
+                    </form>
             </div>
-         
         </div>
-      
     </section>
+    <footer class="footer">
+    <div id="map" style="width:100%; height:500px">
+    </div>
+    <div class="footer__info">
+        <address class="footer__addr"> <span>г. Москва </span> <br>  ул. Садовническая, дом 5, офис 4-6 700 от м. Новокузнецкая</address>
+        <a href="tel:+79264230100" class="footer__tel">Тел: +7 (926) 423 01 00</a>
+        <a href="mailto:info@glopt.ru" class="footer__mail">info@glopt.ru</a>
+    </div>
+<div class="footer__wrapper">
+    <div class="container">
+        <div class="footer__item_1">
+            <a href="#"><img src="icons/promo/icon_main.png" alt="logo" class="footer__logo"></a>
+            <div class="title_16-700 title_16-700_footer">Global Opt - Доставка грузов из Китая в Россию и СНГ</div>
+            <div class="header__contacts">
+                <div class="descr_14-300 descr_14-300_header">Есть вопросы?</div>
+                <a href="tel:+79264230100" class="header__phone">+7 (926) 423 01 00</a>
+                <button data-modal="consultation" class="button button_160 button_160_header">Перезвоните мне</button>
+            </div>  
+        </div>
+        <div class="footer__item_2">
+            <div class="footer__tm">© 2010 Scratch.com.ua</div>
+            <a href="/policy.html" class="footer__policy">Политика конфидециальности</a>
+            <div class="footer__tm footer__tm_creation">Создание сайта:</div>
+            <img src="icons/footer/footer_logo.png" alt="" class="footer__img">
+        </div>
+    </div>
+</div>
+    </footer>
+    <a href="#up"><img src="icons/up/up.svg" alt="up" class="pageup"></a>
 
- 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
     </script>    
     <script src="js/WOW.js"></script>
- <!--    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/slick.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+    <script type="text/javascript">
+        var map;
+    
+        DG.then(function () {
+            map = DG.map('map', {
+                center: [55.74, 37.62],
+                zoom: 13
+            });
+            DG.marker([55.74, 37.62]).addTo(map);
+        });
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>
